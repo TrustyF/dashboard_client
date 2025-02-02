@@ -99,19 +99,19 @@ onMounted(() => {
   line-height: 1;
 }
 .header {
-  height: 3em;
+  /*height: 3em;*/
   display: flex;
   flex-flow: row;
   gap: 5px;
 
   .weather_icon {
-    height: 100%;
+    height: 5em;
     aspect-ratio: 1;
     object-fit: cover;
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 5em;
   }
 }
 
